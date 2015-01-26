@@ -57,8 +57,10 @@
         
         <h1>BAS Application</h1>
         
+        
         <!-- Contact Info -->
         <h2>Contact Info</h2>
+                
         <form>
         <div class="form-group">
         <label for="first">First Name: </label>
@@ -71,24 +73,34 @@
         <label for="phone">Phone: </label>
         <input type="text" name="phone" placeholder="phone" class="form-control">
         
-        
+        <div class="bg-warning deadline">      
+        <h4>Deadlines:</h4>
+        <ul>
+        <li>Fall quarter: Aug 15</li>
+        <li>Winter quarter: Dec 15</li>
+        <li>Spring quarter: Mar 15</li>
+        <li>Summer quarter: June 1</li>
+        </ul>
+        </div>
+                
         <label for="degree">Which degree are you interested in?</label>
         <div class="radio">
         <label>
-          <input type="radio" name="software" id="software" value="software" checked>
-          Software Development
+        <input type="radio" name="degree" value="software">
+        Software Development
         </label>
         
         </div>
         <div class="radio">
         <label>
-          <input type="radio" name="networking" id="networking" value="networking">
-          Network Administration & Security
+        <input type="radio" name="degree" value="networking">
+        Network Administration & Security
         </label>
+        
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="undecided" id="undecided" value="undecided">
+        <input type="radio" name="degree" value="undecided">
         Undecided
         </label>
         </div>
@@ -96,7 +108,54 @@
         <button type="button" class="btn btn-lg btn-primary">Continue</button>
         </form>
         
-        <p class="lead">Use this document as a way to quickly start any new project.<br> 
+      </div>
+</div>
+<!-- END Contact Info -->
+      
+<!-- Tell Us More -->
+<div class="starter-template grey">
+    <h2>Tell Us More</h2>
+        <form>
+
+        
+        
+        <label for="status">Please Select One:</label>
+        <div class="radio">
+        <label>
+        <input type="radio" name="status" value="current student">
+        I am currently a student at Green River Student ID
+        </label>
+        
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="status" value="new student">
+        I am a new student
+        </label>
+        </div>
+        
+        <label for="optional-status">I am a (please check all that apply): </label>
+        <div class="checkbox">
+        <label>
+        <input type="checkbox"> Veteran
+        </label>
+        </div>
+            
+        <div class="checkbox">
+        <label>
+        <input type="checkbox"> International student
+        </label>
+        </div>
+            
+        <div class="checkbox">
+        <label>
+        <input type="checkbox"> Running Start student
+        </label>
+        </div>
+        
+        <button type="button" class="btn btn-lg btn-primary">Continue</button>
+        </form>
+        
       </div>
     <!-- END Contact Info -->
         
